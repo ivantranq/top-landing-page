@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: Roboto, "Times New Roman", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+.header,
+.first,
+.second,
+.third,
+.fourth,
+.footer,
+.header-links {
+  display: flex;
+}
+
+body {
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Header Realated CSS */
+
+.header {
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.header-links {
+  list-style-type: none;
+}
+
+li {
+  padding-left: 16px;
+}
+
+/* First Section CSS */
+
